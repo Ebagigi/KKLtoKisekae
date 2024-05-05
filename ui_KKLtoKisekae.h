@@ -21,11 +21,6 @@ QT_BEGIN_NAMESPACE
 class Ui_KKLtoKisekae
 {
 public:
-    QWidget *centralwidget;
-    QWidget *verticalLayoutWidget;
-    QVBoxLayout *verticalLayout;
-    QStatusBar *statusbar;
-
     void setupUi(QMainWindow *KKLtoKisekae)
     {
         if (KKLtoKisekae->objectName().isEmpty())
@@ -55,6 +50,12 @@ public:
     {
         KKLtoKisekae->setWindowTitle(QCoreApplication::translate("KKLtoKisekae", "KKLtoKisekae", nullptr));
     } // retranslateUi
+
+private:
+    QWidget *centralwidget;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *verticalLayout;
+    QStatusBar *statusbar;
 
 };
 

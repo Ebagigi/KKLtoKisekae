@@ -15,7 +15,8 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 qt_add_executable(KKLtoKisekae
-        KKLtoKisekae.ui forms/input.txt ui_KKLtoKisekae.h
+        KKLtoKisekae.ui ui_KKLtoKisekae.h ui_KKLtoKisekae.cpp
+        forms/input.txt
         main.cpp)
 
 target_link_libraries(KKLtoKisekae PUBLIC

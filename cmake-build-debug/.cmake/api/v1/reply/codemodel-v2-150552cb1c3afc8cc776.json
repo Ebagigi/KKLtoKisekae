@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KKLtoKisekae",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KKLtoKisekae::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KKLtoKisekae-Debug-e6eea0786a5e62418987.json",
+					"name" : "KKLtoKisekae",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KKLtoKisekae_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KKLtoKisekae_autogen-Debug-7f5d0ab3c99e1a575c4b.json",
+					"name" : "KKLtoKisekae_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KKLtoKisekae_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KKLtoKisekae_autogen_timestamp_deps-Debug-4fdeabd4800d2c39b1c5.json",
+					"name" : "KKLtoKisekae_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Programming Projects/KKLtoKisekae/cmake-build-debug",
+		"source" : "F:/Programming Projects/KKLtoKisekae"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

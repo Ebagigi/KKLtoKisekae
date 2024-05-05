@@ -1,0 +1,5 @@
+F:/Programming Projects/KKLtoKisekae/cmake-build-debug/CMakeFiles/KKLtoKisekae.dir
+F:/Programming Projects/KKLtoKisekae/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Programming Projects/KKLtoKisekae/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/Programming Projects/KKLtoKisekae/cmake-build-debug/CMakeFiles/KKLtoKisekae_autogen_timestamp_deps.dir
+F:/Programming Projects/KKLtoKisekae/cmake-build-debug/CMakeFiles/KKLtoKisekae_autogen.dir

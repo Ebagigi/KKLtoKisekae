@@ -11,18 +11,16 @@ set(CMAKE_PREFIX_PATH "F:/Qt/6.7.0/mingw_64")
 find_package(Qt6 COMPONENTS
         Core
         Gui
-        UiTools
         Widgets
         REQUIRED)
 
 qt_add_executable(KKLtoKisekae
-        KKLtoKisekae.cpp KKLtoKisekae.h forms/KKLtoKisekae.ui forms/input.txt
+        forms/KKLtoKisekae.ui forms/input.txt ui_KKLtoKisekae.h
         main.cpp)
 
 target_link_libraries(KKLtoKisekae PUBLIC
         Qt::Core
         Qt::Gui
-        Qt::UiTools
         Qt::Widgets
         )
 

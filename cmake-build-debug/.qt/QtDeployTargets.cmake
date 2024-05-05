@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_KKLtoKisekae_FILE F:/Programming Projects/KKLtoKisekae/cmake-build-debug/KKLtoKisekae.exe)
-set(__QT_DEPLOY_TARGET_KKLtoKisekae_RUNTIME_DLLS F:/Qt/6.7.0/mingw_64/bin/Qt6UiTools.dll;F:/Qt/6.7.0/mingw_64/bin/Qt6OpenGLWidgets.dll;F:/Qt/6.7.0/mingw_64/bin/Qt6Widgets.dll;F:/Qt/6.7.0/mingw_64/bin/Qt6OpenGL.dll;F:/Qt/6.7.0/mingw_64/bin/Qt6Gui.dll;F:/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)

@@ -1,17 +1,19 @@
 /********************************************************************************
-** Form generated from reading UI file 'KKLtoKisekaepAhaVo.ui'
+** Form generated from reading UI file 'KKLtoKisekaeGKTCun.ui'
 **
 ** Created by: Qt User Interface Compiler version 6.7.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef KKLTOKISEKAEPAHAVO_H
-#define KKLTOKISEKAEPAHAVO_H
+#ifndef KKLTOKISEKAEGKTCUN_H
+#define KKLTOKISEKAEGKTCUN_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolButton>
@@ -30,6 +32,8 @@ public:
     QToolButton *toolButton_2;
     QToolButton *toolButton_3;
     QMenuBar *menubar;
+    QMenu *menuExit;
+    QMenu *menuFile;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *KKLtoKisekae)
@@ -37,6 +41,8 @@ public:
         if (KKLtoKisekae->objectName().isEmpty())
             KKLtoKisekae->setObjectName("KKLtoKisekae");
         KKLtoKisekae->resize(800, 600);
+        KKLtoKisekae->setMinimumSize(QSize(800, 600));
+        KKLtoKisekae->setMaximumSize(QSize(800, 600));
         centralwidget = new QWidget(KKLtoKisekae);
         centralwidget->setObjectName("centralwidget");
         verticalLayoutWidget = new QWidget(centralwidget);
@@ -74,10 +80,17 @@ public:
         menubar = new QMenuBar(KKLtoKisekae);
         menubar->setObjectName("menubar");
         menubar->setGeometry(QRect(0, 0, 800, 22));
+        menuExit = new QMenu(menubar);
+        menuExit->setObjectName("menuExit");
+        menuFile = new QMenu(menubar);
+        menuFile->setObjectName("menuFile");
         KKLtoKisekae->setMenuBar(menubar);
         statusbar = new QStatusBar(KKLtoKisekae);
         statusbar->setObjectName("statusbar");
         KKLtoKisekae->setStatusBar(statusbar);
+
+        menubar->addAction(menuExit->menuAction());
+        menubar->addAction(menuFile->menuAction());
 
         retranslateUi(KKLtoKisekae);
 
@@ -90,6 +103,8 @@ public:
         toolButton->setText(QCoreApplication::translate("KKLtoKisekae", "1", nullptr));
         toolButton_2->setText(QCoreApplication::translate("KKLtoKisekae", "2", nullptr));
         toolButton_3->setText(QCoreApplication::translate("KKLtoKisekae", "3", nullptr));
+        menuExit->setTitle(QCoreApplication::translate("KKLtoKisekae", "File", nullptr));
+        menuFile->setTitle(QCoreApplication::translate("KKLtoKisekae", "Exit", nullptr));
     } // retranslateUi
 
 };
@@ -100,4 +115,4 @@ namespace Ui {
 
 QT_END_NAMESPACE
 
-#endif // KKLTOKISEKAEPAHAVO_H
+#endif // KKLTOKISEKAEGKTCUN_H

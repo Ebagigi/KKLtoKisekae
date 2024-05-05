@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-qt_add_executable(KKLtoKisekae KKLtoKisekae.h KKLtoKisekae.cpp
+qt_add_executable(KKLtoKisekae
         KKLtoKisekae.ui ui_KKLtoKisekae.h ui_KKLtoKisekae.cpp
         forms/input.txt
         main.cpp)

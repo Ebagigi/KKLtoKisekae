@@ -9,14 +9,13 @@
 #include <QPushButton>
 
 #include "ui_KKLtoKisekae.h"
-#include "KKLtoKisekae.h"
 
 using namespace std;
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    KKLtoKisekae widget;
+    QMainWindow widget;
     Ui::KKLtoKisekae ui;
     ui.setupUi(&widget);
 

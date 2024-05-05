@@ -39,14 +39,14 @@
      <item>
       <layout class="QFormLayout" name="formLayout">
        <item row="0" column="0">
-        <widget class="QPushButton" name="browsePushButton">
+        <widget class="QPushButton" name="mBrowsePushButton">
          <property name="text">
           <string>Browse...</string>
          </property>
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QPlainTextEdit" name="plainTextEdit">
+        <widget class="QPlainTextEdit" name="mPlainTextEdit">
          <property name="acceptDrops">
           <bool>false</bool>
          </property>
@@ -66,7 +66,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QPushButton" name="exitPushButton">
+        <widget class="QPushButton" name="mExitPushButton">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>

@@ -8,7 +8,9 @@
 #ifndef KKLTOKISEKAE_KKLTOKISEKAE_H
 #define KKLTOKISEKAE_KKLTOKISEKAE_H
 
-class KKLtoKisekae {
+#include <QMainWindow>
+
+class KKLtoKisekae : public QMainWindow {
 private:
 
 public:

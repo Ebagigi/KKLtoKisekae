@@ -214,6 +214,9 @@ public:
 
         exitButtonGridLayout->addWidget(exitPushButton, 0, 0, 1, 1);
 
+        // Functionality for exit button.
+        QObject::connect(exitPushButton, SIGNAL(clicked()), qApp, SLOT(quit()));
+
 
         verticalLayout->addLayout(exitButtonGridLayout);
 

@@ -25,12 +25,12 @@
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include <QObject>
 
 QT_BEGIN_NAMESPACE
 
-class Ui_KKLtoKisekae {
-private:
+class Ui_KKLtoKisekae
+{
+public:
     QAction *actionHelp;
     QAction *actionAbout;
     QWidget *centralwidget;
@@ -57,7 +57,6 @@ private:
     QMenuBar *menuBar;
     QMenu *menuFile;
 
-public:
     void setupUi(QMainWindow *KKLtoKisekae)
     {
         if (KKLtoKisekae->objectName().isEmpty())

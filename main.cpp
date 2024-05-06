@@ -2,14 +2,12 @@
  * @file main.cpp
  * @author Gabriel Misajlovski (Ebagigi)
  *
- *
+ * The main file of this application.
  */
 
 #include <QApplication>
 
 #include "ui_KKLtoKisekae.h"
-
-using namespace std;
 
 int main(int argc, char *argv[])
 {

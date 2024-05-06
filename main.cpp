@@ -6,7 +6,6 @@
  */
 
 #include <QApplication>
-#include <QPushButton>
 
 #include "ui_KKLtoKisekae.h"
 

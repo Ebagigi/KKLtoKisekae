@@ -4,9 +4,13 @@
  *
  */
 
+#include <QObject>
+
 #include "ui_KKLtoKisekae.h"
 #include "ConvertButton.h"
 #include "LoadButton.h"
+#include "kklCode.h"
+#include "kisekaeCode.h"
 
 void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
 {
@@ -93,7 +97,7 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
 
     fileContentsHorizontalLayout = new QHBoxLayout();
     fileContentsHorizontalLayout->setObjectName("fileContentsHorizontalLayout");
-    kklCodeTextEdit = new QTextEdit(verticalLayoutWidget);
+    kklCodeTextEdit = new kklCode(verticalLayoutWidget);
     kklCodeTextEdit->setObjectName("kklCodeTextEdit");
     kklCodeTextEdit->setEnabled(true);
     QSizePolicy sizePolicy2(QSizePolicy::Policy::MinimumExpanding, QSizePolicy::Policy::Fixed);
@@ -117,8 +121,6 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
     convertPushButton->setSizePolicy(sizePolicy);
 
     convertButtonHorizontalLayout->addWidget(convertPushButton);
-
-    // connect(kklCodeTextEdit, &QTextEdit::textChanged, convertPushButton, &ConvertButton::updateEnabledState);
 
     verticalLayout->addLayout(convertButtonHorizontalLayout);
 
@@ -165,8 +167,10 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
 
     exitButtonGridLayout->addWidget(exitPushButton, 0, 0, 1, 1);
 
-    // Functionality for exit button.
+    // Signal Slot Connections.
+    QObject::connect(kklCodeTextEdit, &kklCode::textChanged, convertPushButton, &ConvertButton::updateEnabledState);
     QObject::connect(exitPushButton, SIGNAL(clicked()), qApp, SLOT(quit()));
+    QObject::connect(convertPushButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
 
     verticalLayout->addLayout(exitButtonGridLayout);

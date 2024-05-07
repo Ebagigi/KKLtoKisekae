@@ -18,6 +18,8 @@ qt_add_executable(KKLtoKisekae
         KKLtoKisekae.ui ui_KKLtoKisekae.h ui_KKLtoKisekae.cpp
         ConvertButton.cpp ConvertButton.h
         LoadButton.cpp LoadButton.h
+        kklCode.cpp kklCode.h
+        kisekaeCode.cpp kisekaeCode.h
         forms/input.txt
         main.cpp)
 

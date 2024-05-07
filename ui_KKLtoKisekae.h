@@ -31,6 +31,7 @@
 
 #include "ConvertButton.h"
 #include "LoadButton.h"
+#include "kklCode.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -50,7 +51,7 @@ private:
     QLabel *pathNameLabel;
     QLabel *loadPathLabel;
     QHBoxLayout *fileContentsHorizontalLayout;
-    QTextEdit *kklCodeTextEdit;
+    kklCode *kklCodeTextEdit;
     QHBoxLayout *convertButtonHorizontalLayout;
     ConvertButton *convertPushButton;
     QHBoxLayout *horizontalLayout_3;

@@ -12,15 +12,13 @@
 
 class ConvertButton : public QPushButton {
     Q_OBJECT
-protected:
-
 private:
-
+    QString mText;
 public:
-    explicit ConvertButton(QWidget *parent = 0);
+    explicit ConvertButton(QWidget *parent = nullptr);
 
 public slots:
-    void updateEnabledState(const QString &text);
+    void updateEnabledState(const QString& newText);
 };
 
 #endif //KKLTOKISEKAE_CONVERTBUTTON_H

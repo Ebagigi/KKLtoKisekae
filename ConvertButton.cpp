@@ -3,6 +3,8 @@
  * @author Gabriel Misajlovski (Ebagigi)
  */
 
+#include <QTextEdit>
+
 #include "ConvertButton.h"
 
 ConvertButton::ConvertButton(QWidget* parent)
@@ -11,7 +13,11 @@ ConvertButton::ConvertButton(QWidget* parent)
     setEnabled(false);
 }
 
-void ConvertButton::updateEnabledState(const QString &text) {
+void ConvertButton::updateEnabledState(const QString& newText) {
     // Enable button if there is text, otherwise disable it
-    setEnabled(!text.isEmpty());
+    mText = newText;
+    setEnabled(!mText.isEmpty());
 }
+
+
+

@@ -2,7 +2,7 @@
  * @file main.cpp
  * @author Gabriel Misajlovski (Ebagigi)
  *
- * The main file of this application.
+ * The main file of this application that builds the executable.
  */
 
 #include <QApplication>
@@ -17,5 +17,5 @@ int main(int argc, char *argv[])
     ui.setupUi(&widget);
 
     widget.show();
-    return app.exec();
+    return QApplication::exec();
 }

@@ -16,6 +16,7 @@ find_package(Qt6 COMPONENTS
 
 qt_add_executable(KKLtoKisekae
         KKLtoKisekae.ui ui_KKLtoKisekae.h ui_KKLtoKisekae.cpp
+        FileBrowser.ui ui_FileBrowser.h
         ConvertButton.cpp ConvertButton.h
         LoadButton.cpp LoadButton.h
         kklCode.cpp kklCode.h

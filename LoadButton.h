@@ -15,7 +15,10 @@ class LoadButton : public QPushButton {
 private:
 
 public:
-    LoadButton(QWidget *parent = 0);
+    LoadButton(QWidget *parent = nullptr);
+
+private slots:
+    void loadFile();
 
 };
 

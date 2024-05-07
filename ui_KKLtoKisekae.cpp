@@ -5,12 +5,14 @@
  */
 
 #include <QObject>
+#include <QFileDialog>
 
 #include "ui_KKLtoKisekae.h"
 #include "ConvertButton.h"
 #include "LoadButton.h"
 #include "kklCode.h"
 #include "kisekaeCode.h"
+#include "ui_FileBrowser.h"
 
 void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
 {
@@ -171,7 +173,10 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
     QObject::connect(kklCodeTextEdit, &kklCode::textChanged, convertPushButton, &ConvertButton::updateEnabledState);
     QObject::connect(exitPushButton, SIGNAL(clicked()), qApp, SLOT(quit()));
     QObject::connect(convertPushButton, SIGNAL(clicked()), qApp, SLOT(quit()));
-
+    QObject::connect(loadPushButton, &QPushButton::clicked, [&]() {
+        QString filePath = QFileDialog::getOpenFileName(KKLtoKisekae, "Select a file to load", "", "Text Files (*.txt)");
+        qDebug() << "Selected file path: " << filePath;
+    });
 
     verticalLayout->addLayout(exitButtonGridLayout);
 

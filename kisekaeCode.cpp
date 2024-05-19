@@ -5,3 +5,8 @@
 
 #include "kisekaeCode.h"
 
+kisekaeCode::kisekaeCode(QWidget *parent)
+        : QTextEdit(parent)
+{
+
+}

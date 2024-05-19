@@ -11,13 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="Load button Functionality nearly complete. Started work on Convert Button functionality.">
+    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="Simple Test Case Working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConvertButton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertButton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConvertButton.h" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertButton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kisekaeCode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kisekaeCode.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +79,8 @@
       <workItem from="1715110244708" duration="36000" />
       <workItem from="1715110289176" duration="17205000" />
       <workItem from="1715185369777" duration="3097000" />
-      <workItem from="1716135108103" duration="5101000" />
+      <workItem from="1716135108103" duration="5342000" />
+      <workItem from="1716150629998" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganized Ui_KKLtoKisekae class to have both a .h and a .cpp file.">
       <created>1715108968089</created>
@@ -105,7 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1715126462168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added script for Convert Button">
+      <created>1716150452389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716150452389</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Simple Test Case Working">
+      <created>1716152691327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716152691327</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Simple Test Case Working">
+      <created>1716152709158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716152709158</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +153,9 @@
     <MESSAGE value="Created connection between kklCode and ConvertButton so that ConvertButton is only enabled when kklCode has text in its box.&#10;&#10;Added kisekaeCode Class" />
     <MESSAGE value="Set up Load file button functionality, as well as added second UI for the file browser window." />
     <MESSAGE value="Load button Functionality nearly complete. Started work on Convert Button functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Load button Functionality nearly complete. Started work on Convert Button functionality." />
+    <MESSAGE value="Added script for Convert Button" />
+    <MESSAGE value="Simple Test Case Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Test Case Working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

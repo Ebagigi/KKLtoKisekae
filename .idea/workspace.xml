@@ -11,11 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="Set up Load file button functionality, as well as added second UI for the file browser window.">
+    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="Load button Functionality nearly complete. Started work on Convert Button functionality.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConvertButton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertButton.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConvertButton.h" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertButton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_FileBrowser.h" beforeDir="false" afterPath="$PROJECT_DIR$/ui_FileBrowser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/input.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +53,10 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KKL" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KKLtoKisekae" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KKLtoKisekae" TARGET_NAME="KKLtoKisekae" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="KKLtoKisekae" RUN_TARGET_NAME="KKLtoKisekae">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -76,7 +73,9 @@
       <updated>1715108477399</updated>
       <workItem from="1715108478954" duration="1751000" />
       <workItem from="1715110244708" duration="36000" />
-      <workItem from="1715110289176" duration="15657000" />
+      <workItem from="1715110289176" duration="17205000" />
+      <workItem from="1715185369777" duration="3097000" />
+      <workItem from="1716135108103" duration="5101000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganized Ui_KKLtoKisekae class to have both a .h and a .cpp file.">
       <created>1715108968089</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715120026766</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Load button Functionality nearly complete. Started work on Convert Button functionality.">
+      <created>1715126462168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715126462168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +126,8 @@
     <MESSAGE value="Reorganized Ui_KKLtoKisekae class to have both a .h and a .cpp file." />
     <MESSAGE value="Created connection between kklCode and ConvertButton so that ConvertButton is only enabled when kklCode has text in its box.&#10;&#10;Added kisekaeCode Class" />
     <MESSAGE value="Set up Load file button functionality, as well as added second UI for the file browser window." />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up Load file button functionality, as well as added second UI for the file browser window." />
+    <MESSAGE value="Load button Functionality nearly complete. Started work on Convert Button functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Load button Functionality nearly complete. Started work on Convert Button functionality." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

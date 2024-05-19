@@ -21,7 +21,6 @@ qt_add_executable(KKLtoKisekae
         LoadButton.cpp LoadButton.h
         kklCode.cpp kklCode.h
         kisekaeCode.cpp kisekaeCode.h
-        forms/input.txt
         main.cpp)
 
 target_link_libraries(KKLtoKisekae PUBLIC

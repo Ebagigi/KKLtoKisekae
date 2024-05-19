@@ -172,13 +172,23 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
     // Signal Slot Connections.
     QObject::connect(kklCodeTextEdit, &kklCode::textChanged, convertPushButton, &ConvertButton::updateEnabledState);
     QObject::connect(exitPushButton, SIGNAL(clicked()), qApp, SLOT(quit()));
-    QObject::connect(convertPushButton, SIGNAL(clicked()), convertPushButton, SLOT(translateCode()));
+    QObject::connect(convertPushButton, &QPushButton::clicked, [&]() {
+        SLOT(translateCode);
+        kisekaeCodeTextEdit->setText(convertPushButton->getText());
+        kisekaeCodeTextEdit->setReadOnly(true);
+        kisekaeCodeTextEdit->setEnabled(true);
+    });
     QObject::connect(loadPushButton, &QPushButton::clicked, [&]() {
         QString filePath = QFileDialog::getOpenFileName(KKLtoKisekae, "Select a file to load", "", "Text Files (*.txt)");
         // Code Chunk to load in file contents and directory to right places
         {
             QFile file(filePath);
-            qDebug() << filePath;
+            // qDebug() << "File Selected: " << filePath;
+            QString selectedFile = file.fileName();
+            if (selectedFile.isEmpty()) {
+                kklCodeTextEdit->setPlaceholderText(QCoreApplication::translate("KKLtoKisekae", "KKL Code will be displayed here (Paste KKL Code here if not loading txt file)...", nullptr));
+                return;
+            }
             if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
                 kklCodeTextEdit->setPlaceholderText(QCoreApplication::translate("KKLtoKisekae", "Invalid KKL File!!", nullptr));
                 kklCodeTextEdit->setPlainText(QCoreApplication::translate("KKLtoKisekae", "", nullptr));

@@ -16,11 +16,12 @@ class ConvertButton : public QPushButton {
 private:
     QString mText;
 
-    std::vector<std::string> customSplit(std::string str, char separator);
+    static std::vector<std::string> customSplit(std::string str, char separator);
 
 public:
     explicit ConvertButton(QWidget *parent = nullptr);
     void setNewText(QString text) { mText = std::move(text); }
+    QString getText() {return mText;}
 
 signals:
     void clicked(const QString& code);

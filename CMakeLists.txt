@@ -20,7 +20,6 @@ qt_add_executable(KKLtoKisekae
         ConvertButton.cpp ConvertButton.h
         LoadButton.cpp LoadButton.h
         kklCode.cpp kklCode.h
-        kisekaeCode.cpp kisekaeCode.h
         main.cpp)
 
 target_link_libraries(KKLtoKisekae PUBLIC

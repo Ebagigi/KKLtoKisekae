@@ -9,7 +9,6 @@
 #include <QWindow>
 
 #include "ui_KKLtoKisekae.h"
-#include "ui_FileBrowser.h"
 
 int main(int argc, char *argv[])
 {
@@ -18,11 +17,6 @@ int main(int argc, char *argv[])
     Ui::KKLtoKisekae ui;
     ui.setupUi(&widget);
 
-    QWidget widget2;
-    Ui2::Form ui2;
-    ui2.setupUi(&widget2);
-
     widget.show();
-    widget2.hide();
     return QApplication::exec();
 }

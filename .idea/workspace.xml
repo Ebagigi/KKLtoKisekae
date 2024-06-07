@@ -11,7 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="Simple Test Case Working" />
+    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="Simple Test Case Working">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileBrowser.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/Gigi Femsona 14.0 Code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/forms/Gigi Femsona 14.0 Code.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_FileBrowser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_KKLtoKisekae.h" beforeDir="false" afterPath="$PROJECT_DIR$/ui_KKLtoKisekae.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,12 +59,12 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration name="KKLtoKisekae" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KKLtoKisekae" TARGET_NAME="KKLtoKisekae" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="KKLtoKisekae" RUN_TARGET_NAME="KKLtoKisekae">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="KKLtoKisekae" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KKLtoKisekae" TARGET_NAME="KKLtoKisekae" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="KKLtoKisekae" RUN_TARGET_NAME="KKLtoKisekae">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -75,6 +84,7 @@
       <workItem from="1715185369777" duration="3097000" />
       <workItem from="1716135108103" duration="5342000" />
       <workItem from="1716150629998" duration="2718000" />
+      <workItem from="1717782317624" duration="4086000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganized Ui_KKLtoKisekae class to have both a .h and a .cpp file.">
       <created>1715108968089</created>
@@ -132,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716155124392</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Simple Test Case Working">
+      <created>1716155249821</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716155249821</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

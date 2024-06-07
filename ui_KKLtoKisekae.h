@@ -36,7 +36,7 @@
 QT_BEGIN_NAMESPACE
 
 class Ui_KKLtoKisekae
-{
+        : public QObject {
 private:
     QAction *actionHelp;
     QAction *actionAbout;

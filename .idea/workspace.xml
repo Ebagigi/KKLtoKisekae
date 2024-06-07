@@ -11,15 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="Simple Test Case Working">
+    <list default="true" id="22c8a6ab-9227-4ea4-b88d-81a8527c2a49" name="Changes" comment="About Pop Up Window in Progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileBrowser.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/Gigi Femsona 14.0 Code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/forms/Gigi Femsona 14.0 Code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_FileBrowser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/About.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_About.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui_KKLtoKisekae.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_KKLtoKisekae.h" beforeDir="false" afterPath="$PROJECT_DIR$/ui_KKLtoKisekae.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <workItem from="1715185369777" duration="3097000" />
       <workItem from="1716135108103" duration="5342000" />
       <workItem from="1716150629998" duration="2718000" />
-      <workItem from="1717782317624" duration="4086000" />
+      <workItem from="1717782317624" duration="6651000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganized Ui_KKLtoKisekae class to have both a .h and a .cpp file.">
       <created>1715108968089</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716155249821</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="About Pop Up Window in Progress">
+      <created>1717786558676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717786558676</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +177,8 @@
     <MESSAGE value="Added script for Convert Button" />
     <MESSAGE value="Revert" />
     <MESSAGE value="Simple Test Case Working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple Test Case Working" />
+    <MESSAGE value="About Pop Up Window in Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="About Pop Up Window in Progress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

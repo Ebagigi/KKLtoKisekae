@@ -7,12 +7,13 @@
 #include <QObject>
 #include <QAction>
 #include <QFileDialog>
+#include <QDialog>
 
 #include "ui_KKLtoKisekae.h"
+#include "ui_About.h"
 #include "ConvertButton.h"
 #include "LoadButton.h"
 #include "kklCode.h"
-#include "ui_About.h"
 
 void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
 {
@@ -22,6 +23,7 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
     KKLtoKisekae->setMinimumSize(QSize(600, 800));
     KKLtoKisekae->setMaximumSize(QSize(600, 800));
     KKLtoKisekae->setBaseSize(QSize(600, 800));
+
     actionHelp = new QAction(KKLtoKisekae);
     actionHelp->setObjectName("actionHelp");
     actionAbout = new QAction(KKLtoKisekae);
@@ -45,7 +47,6 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
     loadPushButton->setSizePolicy(sizePolicy);
 
     loadButtonHorizontalLayout->addWidget(loadPushButton);
-
 
     verticalLayout->addLayout(loadButtonHorizontalLayout);
 
@@ -218,19 +219,12 @@ void Ui_KKLtoKisekae::setupUi(QMainWindow *KKLtoKisekae)
         }
     });
 
-    QAction::connect(actionAbout, &QAction::triggered, [&]() {
-        actionAbout->setEnabled(true);
-
-        QWidget widget3;
-        Ui3::Form2 ui3;
-        ui3.setupUi(&widget3);
-
-        while (actionAbout->isEnabled()) {
-            widget3.show();
-            if (widget3.close()) {
-                actionAbout->setEnabled(false);
-            }
-        }
+    QAction::connect(actionAbout, &QAction::triggered, [&] {
+        // Creates the about pop-up window
+        QDialog dialogAbout;
+        Ui::About ui;
+        ui.setupUi(&dialogAbout);
+        dialogAbout.exec();
     });
 
     verticalLayout->addLayout(exitButtonGridLayout);

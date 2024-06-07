@@ -1,77 +1,61 @@
 /********************************************************************************
-** Form generated from reading UI file 'AboutEnEZxg.ui'
+** Form generated from reading UI file 'AboutzncCFT.ui'
 **
 ** Created by: Qt User Interface Compiler version 6.7.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef ABOUTENEZXG_H
-#define ABOUTENEZXG_H
+#ifndef ABOUTZNCCFT_H
+#define ABOUTZNCCFT_H
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
-class Ui_Form2
+class Ui_About
 {
 public:
-    QWidget *verticalLayoutWidget;
-    QVBoxLayout *verticalLayout_2;
-    QHBoxLayout *horizontalLayout_7;
     QLabel *aboutLabel;
 
-    void setupUi(QWidget *Form)
+    void setupUi(QDialog *About)
     {
-        if (Form->objectName().isEmpty())
-            Form->setObjectName("About");
-        Form->resize(400, 300);
-        verticalLayoutWidget = new QWidget(Form);
-        verticalLayoutWidget->setObjectName("verticalLayoutWidget");
-        verticalLayoutWidget->setGeometry(QRect(-1, -1, 442, 301));
-        verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout_2->setObjectName("verticalLayout_2");
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        horizontalLayout_7 = new QHBoxLayout();
-        horizontalLayout_7->setObjectName("horizontalLayout_7");
-        aboutLabel = new QLabel(verticalLayoutWidget);
+        if (About->objectName().isEmpty())
+            About->setObjectName("About");
+        About->setEnabled(true);
+        About->resize(400, 300);
+        aboutLabel = new QLabel(About);
         aboutLabel->setObjectName("aboutLabel");
+        aboutLabel->setGeometry(QRect(-2, 5, 401, 291));
         QFont font;
         font.setFamilies({QString::fromUtf8("Snap ITC")});
-        font.setPointSize(14);
+        font.setPointSize(17);
         aboutLabel->setFont(font);
         aboutLabel->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        horizontalLayout_7->addWidget(aboutLabel);
+        retranslateUi(About);
 
-
-        verticalLayout_2->addLayout(horizontalLayout_7);
-
-
-        retranslateUi(Form);
-
-        QMetaObject::connectSlotsByName(Form);
+        QMetaObject::connectSlotsByName(About);
     } // setupUi
 
-    void retranslateUi(QWidget *Form)
+    void retranslateUi(QDialog *About)
     {
-        Form->setWindowTitle(QCoreApplication::translate("Form", "Form", nullptr));
-        aboutLabel->setText(QCoreApplication::translate("Form", "KKLToKisekae\n"
+        About->setWindowTitle(QCoreApplication::translate("About", "Dialog", nullptr));
+        aboutLabel->setText(QCoreApplication::translate("About", "KKLToKisekae\n"
 "Version: 1.0.0\n"
-"Author: Gabriel Misajlovski", nullptr));
+"Author: Gabriel Misajlovski\n"
+"(Ebagigi)", nullptr));
     } // retranslateUi
 
 };
 
-namespace Ui3 {
-    class Form2: public Ui_Form2 {};
+namespace Ui {
+    class About: public Ui_About {};
 } // namespace Ui
 
 QT_END_NAMESPACE
 
-#endif // ABOUTENEZXG_H
+#endif // ABOUTZNCCFT_H
